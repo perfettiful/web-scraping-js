@@ -1,93 +1,93 @@
 {
   "5K": {
-    "Time Of Day": "08:52:30AM",
-    "Time": "00:15:29",
-    "Diff": "15:29",
-    "Min/mile": "04:59",
-    "Miles/h": "12.05"
+    "Time Of Day": "09:18:58AM",
+    "Time": "00:18:45",
+    "Diff": "18:45",
+    "Min/mile": "06:03",
+    "Miles/h": 9.95
   },
   "10K": {
-    "Time Of Day": "09:08:11AM",
-    "Time": "00:31:10",
-    "Diff": "15:41",
-    "Min/mile": "05:03",
-    "Miles/h": "11.89"
+    "Time Of Day": "09:37:26AM",
+    "Time": "00:37:12",
+    "Diff": "18:27",
+    "Min/mile": "05:57",
+    "Miles/h": 10.1
   },
   "15K": {
-    "Time Of Day": "09:23:46AM",
-    "Time": "00:46:45",
-    "Diff": "15:35",
-    "Min/mile": "05:01",
-    "Miles/h": "11.97"
+    "Time Of Day": "09:55:50AM",
+    "Time": "00:55:37",
+    "Diff": "18:25",
+    "Min/mile": "05:56",
+    "Miles/h": 10.13
   },
   "20K": {
-    "Time Of Day": "09:39:54AM",
-    "Time": "01:02:53",
-    "Diff": "16:08",
-    "Min/mile": "05:12",
-    "Miles/h": "11.56"
+    "Time Of Day": "10:13:59AM",
+    "Time": "01:13:46",
+    "Diff": "18:09",
+    "Min/mile": "05:51",
+    "Miles/h": 10.27
   },
   "HALF": {
-    "Time Of Day": "09:43:23AM",
-    "Time": "01:06:22",
-    "Diff": "03:29",
-    "Min/mile": "05:07",
-    "Miles/h": "11.73"
+    "Time Of Day": "10:17:55AM",
+    "Time": "01:17:42",
+    "Diff": "03:56",
+    "Min/mile": "05:47",
+    "Miles/h": 10.41
   },
   "25K": {
-    "Time Of Day": "09:55:17AM",
-    "Time": "01:18:16",
-    "Diff": "11:54",
-    "Min/mile": "04:55",
-    "Miles/h": "12.23"
+    "Time Of Day": "10:32:04AM",
+    "Time": "01:31:50",
+    "Diff": "14:08",
+    "Min/mile": "05:50",
+    "Miles/h": 10.29
   },
   "30K": {
-    "Time Of Day": "10:10:58AM",
-    "Time": "01:33:57",
-    "Diff": "15:41",
-    "Min/mile": "05:03",
-    "Miles/h": "11.88"
+    "Time Of Day": "10:50:24AM",
+    "Time": "01:50:11",
+    "Diff": "18:21",
+    "Min/mile": "05:55",
+    "Miles/h": 10.16
   },
   "20 Miles": {
-    "Time Of Day": "10:17:50AM",
-    "Time": "01:40:49",
-    "Diff": "06:52",
-    "Min/mile": "05:04",
-    "Miles/h": "11.90"
+    "Time Of Day": "10:58:28AM",
+    "Time": "01:58:15",
+    "Diff": "08:04",
+    "Min/mile": "05:57",
+    "Miles/h": 10.12
   },
   "21 Miles": {
-    "Time Of Day": "10:22:54AM",
-    "Time": "01:45:53",
-    "Diff": "05:04",
-    "Min/mile": "05:04",
-    "Miles/h": "11.83"
+    "Time Of Day": "11:04:31AM",
+    "Time": "02:04:18",
+    "Diff": "06:03",
+    "Min/mile": "06:03",
+    "Miles/h": 9.9
   },
   "35K": {
-    "Time Of Day": "10:26:27AM",
-    "Time": "01:49:26",
-    "Diff": "03:33",
-    "Min/mile": "04:45",
-    "Miles/h": "12.64"
+    "Time Of Day": "11:08:43AM",
+    "Time": "02:08:29",
+    "Diff": "04:11",
+    "Min/mile": "05:36",
+    "Miles/h": 10.72
   },
   "40K": {
-    "Time Of Day": "10:40:32AM",
-    "Time": "02:03:31",
-    "Diff": "14:05",
-    "Min/mile": "04:32",
-    "Miles/h": "13.24"
+    "Time Of Day": "11:27:18AM",
+    "Time": "02:27:04",
+    "Diff": "18:35",
+    "Min/mile": "05:59",
+    "Miles/h": 10.03
   },
   "25.2 Miles": {
-    "Time Of Day": "10:42:18AM",
-    "Time": "02:05:17",
-    "Diff": "01:46",
-    "Min/mile": "05:08",
-    "Miles/h": "11.75"
+    "Time Of Day": "11:29:38AM",
+    "Time": "02:29:24",
+    "Diff": "02:20",
+    "Min/mile": "06:46",
+    "Miles/h": 8.85
   },
   "Finish Net": {
-    "Time Of Day": "10:46:52AM",
-    "Time": "02:09:51",
-    "Diff": "04:34",
-    "Min/mile": "04:29",
-    "Miles/h": "13.35"
+    "Time Of Day": "11:35:52AM",
+    "Time": "02:35:39",
+    "Diff": "06:15",
+    "Min/mile": "06:08",
+    "Miles/h": 9.8
   }
 }

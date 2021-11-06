@@ -4,10 +4,6 @@ const axios = require("axios");
 const cheerio = require("cheerio");
 const fs = require("fs");
 
-// URL of the page we want to scrape
-const url =
-  "https://boston.r.mikatiming.com/2021/?content=detail&fpid=list&pid=list&idp=9TGHS6FF145C88&lang=EN_CAP&event=R&event_main_group=runner&pidp=start&search_event=R";
-
 // Async function which scrapes the data
 async function scrapeData(urlToScrape) {
   try {
@@ -54,7 +50,6 @@ async function scrapeData(urlToScrape) {
       $(el)
         .children("td")
         .each((index, cell) => {
-          
           switch (index) {
             case 0:
               splitsData["Time Of Day"] = cell.children[0].data;
@@ -80,23 +75,23 @@ async function scrapeData(urlToScrape) {
 
       switch (idx) {
         case 0:
-          console.log("+++ Add Row #:",idx)
+          console.log("+++ Add Row #:", idx);
           splitsList["5K"] = splitsData;
           break;
         case 1:
-          console.log("+++ Add Row #:",idx)
+          console.log("+++ Add Row #:", idx);
           splitsList["10K"] = splitsData;
           break;
         case 2:
-          console.log("+++ Add Row #:",idx)
+          console.log("+++ Add Row #:", idx);
           splitsList["15K"] = splitsData;
           break;
         case 3:
-          console.log("+++ Add Row #:",idx)
+          console.log("+++ Add Row #:", idx);
           splitsList["20K"] = splitsData;
           break;
         case 4:
-          console.log("+++ Add Row #:",idx)
+          console.log("+++ Add Row #:", idx);
           splitsList["HALF"] = splitsData;
           break;
         case 5:
@@ -127,6 +122,8 @@ async function scrapeData(urlToScrape) {
       }
     }); //end out loop
 
+    
+
     // // Write table array in countries.json file
     fs.writeFile("splits.json", JSON.stringify(splitsList), (err) => {
       if (err) {
@@ -134,12 +131,26 @@ async function scrapeData(urlToScrape) {
         return;
       }
       console.log("Successfully written data to file");
-    });//end file write
-
+    }); //end file write
   } catch (err) {
     console.error(err);
   }
 }
 
-// Invoke the above function
-scrapeData(url);
+if (typeof module !== "undefined" && !module.parent) {
+  // URL of the page we want to scrape
+  const url =
+    "https://boston.r.mikatiming.com/2021/?content=detail&fpid=search&pid=search&idp=9TGHS6FF145F49&lang=EN_CAP&event=R&event_main_group=runner&pidp=start&search%5Bname%5D=Zais&search_event=R";
+
+  // Invoke the above function
+  scrapeData(url);
+
+
+} else {
+
+  console.log(
+    "+++ Imported into :",
+    module.parent.id.split("\\")[module.parent.id.split("\\").length - 1]
+  );
+
+}
